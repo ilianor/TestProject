@@ -1,0 +1,46 @@
+/*tipography styles----------------------------------------------------------*/
+.tipography-font {
+    color: #333333;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+}
+.tipography-font.title {
+    color: #065D6D;
+}
+.tipography-font.small-header {
+    font-family: courier;
+}
+/*----font positions----*/
+.text-position-right {
+    text-align: right;
+}
+.text-position-left {
+     text-align: left;
+}
+.text-position-center {
+    text-align: center;
+}
+.text-first-letter-big {
+    text-transform: capitalize;
+}
+.text-letters-small {
+    text-transform: lowercase;
+}
+.text-letters-big {
+    text-transform: uppercase;
+}
+/*Classes for put text to one line-------------------------------------------*/
+.text-position-oneline-block {
+    white-space: nowrap;
+    text-align: left;
+}
+   .text-position-oneline-element {
+    display: inline-block;
+}
+/*---------------------------------------------------------------------------*/
+
+/*Classes for text-alighn:justify;-------------------------------------------*/
+.text-position-width {
+      text-align: justify;
+}
+/*---------------------------------------------------------------------------*/

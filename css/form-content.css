@@ -1,0 +1,74 @@
+/*buttons--------------------------------------------------------------------*/
+.button {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 3px; 
+}
+.button:hover {
+    cursor: pointer;
+}
+.button.blue {
+    background: linear-gradient(to top, #2812BA, #6E81F2);
+}
+.button.blue:hover {
+    background: linear-gradient(to top, #2f3878, #816fd2);
+}
+.button.blue:active {
+    background: linear-gradient(to top, #6E81F2, #3618FC);
+}
+.button.green {
+    background: linear-gradient(to top, #05B20F, #07EA14);
+}
+.button.green:hover {
+    background: linear-gradient(to top, #03830A, #05C20F);
+}
+.button.green:active {
+    background: linear-gradient(to top, #07EA14, #05B20F);
+}
+.button.red {
+    background: linear-gradient(to top, #B2070A, #F60A0E);
+}
+.button.red:hover {
+    background: linear-gradient(to top, #790406, #B20609);
+}
+.button.red:active {
+    background: linear-gradient(to top, #F60A0E, #B2070A);
+}
+/*input forms----------------------------------------------------------------*/
+.label {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold; 
+    color: #333333;
+    cursor: pointer;
+}
+.title {
+    margin-bottom: 15px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #8c8c8c;
+}
+.input {
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: inset;
+}
+.input:focus {
+    outline: none;
+    border-style: solid;
+    border-color: #333775;
+}
+.input.input-error {
+    border-style: solid;
+    border-color: #f0512c;
+    color:#f0512c; 
+}

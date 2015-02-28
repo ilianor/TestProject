@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <!--<link rel="stylesheet" href="css\bootstab-css\bootstrap.min.css">-->
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/color.css">
+     <link rel="stylesheet" href="css/tipography-stiles.css">
+     <link rel="stylesheet" href="css/form-content.css">
+     <link rel="stylesheet" href="css/grid.css">
+     
+     <title>Типография</title>
+  </head>
+<body>
+     <header class="head-item">
+      <nav class="nav-menu">
+          <a class="nav-link" href="main.html">
+            <i class="fa fa-home nav-icon"></i>
+            Главная
+          </a>
+          <a class="nav-link" href="tipography.html">
+            <i class="fa fa-print nav-icon">
+            </i>
+            Типография
+          </a>
+          <a class="nav-link" href="main.html">
+            <i class="fa fa-dot-circle-o nav-icon"></i>
+            Кнопки
+          </a>
+          <a class="nav-link active" href="forms.html">
+            <i class="fa fa-calendar-o nav-icon"></i>
+            Формы
+          </a>
+          <a class="nav-link right" href="main.html">
+            <i class="fa fa-pencil nav-icon"></i>
+            Макет
+          </a>
+         <hr>
+       </nav>
+     </header>
+     <div class="page">
+     <!--horizontal form--> 
+    <form>
+      <div class="row">
+       <h class="col-1 title">
+          Input name form (horizontal)
+        </h>
+         <div class="col-9">
+          <label for="inputNameHorizontal" class="label">
+            Enter name</label>
+         </div>
+         <div class="col-5">
+          <input type="name" class="input" id="inputNameHorizontal" placeholder="Enter name">
+         </div>
+         <div class="col-9">
+          <label for="inputEmailHorizontal" class="label">
+            Enter email</label>
+          </div>
+         <div class="col-5">
+          <input type="email" class="input" id="inputEmailHorizontal" placeholder="Enter email">
+         </div>
+         <div class="col-5">
+         <button type="submit" class="button blue">
+          Submit</button>
+       </div>
+     </div>
+    </form>
+       <hr>
+     <!--Vertical form-->
+    <form>
+      <div class="row">
+      <h class="col-1 title">
+          Input name form (vertical)
+      </h>
+      <div class="col-1 min-bottom">
+         <label for="inputNameVertical" class="label">
+          Enter name</label>
+      </div>
+      <div class="col-1 min-top">
+         <input type="name" class="input" id="inputNameVertical" placeholder="Enter name">
+      </div>
+      <div class="col-1 min-bottom">
+         <label for="inputEmailVertical" class="label">
+          Enter email</label>
+      </div>
+      <div class="col-1 min-top">
+         <input type="email" class="input" id="inputEmailVertical" placeholder="Enter email">
+      </div>
+      <div class="col-1 min-bottom">
+         <label for="inputPassVertical" class="label">
+          Enter password</label>
+      </div>
+      <div class="col-1 min-top">
+         <input type="password" class="input" id="inputPassVertical" placeholder="Enter password">
+      </div>
+      <div class="col-7">
+         <button type="submit" class="button green">
+          Submit</button>
+       </div>
+     </div>
+    </form>
+     <hr>
+     <!--Vertical form with horizontal fields -->
+    <form>
+      <div class="row">
+      <h class="col-1 title">
+          Input name form (VertHor)
+      </h>
+      <div class="col-8">
+        <label for="inputNameVertHor" class="label">
+          Enter name</label>
+      </div>
+      <div class="col-80-percent">
+        <input type="name" class="input" id="inputNameVertHor" placeholder="Enter name">
+      </div>
+      <div class="col-8">
+        <label for="inputEmailVertHor" class="label">
+          Enter email</label>
+      </div>
+      <div class="col-80-percent">
+        <input type="email" class="input" id="inputEmailVertHor" placeholder="Enter email">
+      </div>
+      <div class="col-8">
+        <label for="inputPassVertHor" class="label">
+          Enter password</label>
+      </div>
+      <div class="col-80-percent">
+        <input type="password" class="input" id="inputPassVertHor" placeholder="Enter password">
+      </div>
+      <!--indent-->
+      <div class="col-8">
+      </div>
+      <div class="col-7">
+         <button type="submit" class="button red">
+          Submit</button>
+       </div>
+     </div>
+    </form>
+     <hr>
+ </div>
+</body>
+</html>

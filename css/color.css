@@ -1,0 +1,27 @@
+/* text color */
+.text-color-green{
+    color: #5bbd72;
+}
+.text-color-red {
+    color: #d95c5c;
+}
+.text-color-orange {
+    color: #e07b53;
+}
+.text-color-blue {
+    color: #3b83c0;
+}
+
+/* link text color: hover*/
+a.text-color-green:hover {
+    color: #00D283;
+}
+a.text-color-red:hover {
+    color: #FF7171;
+}
+a.text-color-orange:hover {
+    color: #FF9065;
+}
+a.text-color-blue:hover {
+    color: #0098D7;
+}
