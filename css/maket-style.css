@@ -3,13 +3,25 @@
     width: 100px;
     height: 100px;
 }
-.header-name {
-    font-family: Helvetica, sans-serif;
+.maket-font-style {
+    font-family: Courier New, monospace;
+    font-weight: 100;
+}
+.maket-font-style.header-name {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 15px;
 
 }
-.header-link {
+.maket-font-style.header-link {
     text-decoration: underline;
+}
+.maket-font-style.menu-header {
+    font-weight: bold;
+}
+.maket-font-style.menu {
+
+}
+.maket-font-style.main-content {
+    
 }
