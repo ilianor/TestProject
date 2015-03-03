@@ -13,7 +13,7 @@
     padding: 15px;
 
 }
-.maket-font-style.header-link {
+.maket-font-style.maket-link {
     text-decoration: underline;
 }
 .maket-font-style.menu-header {
@@ -24,4 +24,23 @@
 }
 .maket-font-style.main-content {
     
+}
+.maket-image {
+    background-color: #e3e3e3;
+    height: 100px;
+    width: 160px;
+    margin-left: 65px;
+    margin-bottom: 43px;
+    margin-top: 43px;
+}
+.maket-image+.maket-image {
+    margin-left: 19px;
+}
+.vacancy-price {
+    text-align: center;
+}
+.button.maket-button {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 4px;
 }
